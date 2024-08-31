@@ -1,0 +1,22 @@
+.my-key {
+    font-size: 6vmin;
+    background-size: 100%;
+    /* background-color: black; */
+}
+  
+.my-key:active {
+    font-size: 5.88vmin;
+    background-size: 98%;
+    /* box-shadow: none; */
+}
+
+.non-existant-key {
+    /* background-size: 0%; */
+    cursor:not-allowed;
+    font-size: 6vmin;
+}
+
+.non-existant-key > div {
+    width: 100%;
+    height: 100%;
+}
