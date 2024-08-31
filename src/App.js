@@ -21,6 +21,8 @@ let totalTime = 60
 let game = new Game(totalTime)
 let calcStack = new CalcStack()
 
+document.title = 'Asanna'
+
 
 function App() {
   const [winW, setWinW] = useState(window.innerWidth) // replace it later cuz: rerendering issue 
